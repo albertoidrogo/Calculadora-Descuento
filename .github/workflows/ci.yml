@@ -39,4 +39,5 @@ jobs:
       - name: Ejecutar tests
         run: |
           mkdir -p reports
-          python -m pytest --html=reports/test_report.html --self-c
+         python -m pytest --html=reports/test_report.html --self-contained-html
+         
